@@ -54,6 +54,10 @@ const Link = styled.a`
 	text-decoration: none;
 	color: inherit;
 	flex: 1 1 250px;
+
+  &:last-of-type {
+    flex: 1 1 auto;
+  }
 `;
 
 const Wrapper = styled.article`
